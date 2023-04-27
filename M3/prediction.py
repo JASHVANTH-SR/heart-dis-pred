@@ -81,7 +81,7 @@ if st.button("Predict"):
     else:
         st.markdown("## Congratulations! Your heart is healthy.")
 if st.button('show app credits'):
-  st.markdown('''### This is the **Study App** created in Streamlit using the **pandas-profiling** library.
+  st.markdown('''##### This is the **Social Awareness App** created in Streamlit using the **PySpark and Scikit-Learn** library.
 ****Credit:**** App built in `Python` + `Streamlit` by [HARUL GANESH S B ](https://www.linkedin.com/in/harul-ganesh/)\n[BALAJI S ](https://www.linkedin.com/in/balaji-suresh-kumar/)
 ---
 ''')
