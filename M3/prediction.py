@@ -68,6 +68,8 @@ if st.button("Show Sample Values"):
         lines = f.readlines()
     for line in lines:
         st.write(line.strip())
+    st.write('\n')        
+
 v = []
 
 for i in column_names[:-1]:
