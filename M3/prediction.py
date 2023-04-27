@@ -32,7 +32,7 @@ column_names = [
         ]
 
 # Load the dataset
-location = 'https://github.com/JASHVANTH-SR/heart-dis-pred/blob/c6682942cb21ae62291b80880c7e0276d7e0b6da/M3/prediction.py'
+location = 'https://github.com/JASHVANTH-SR/heart-dis-pred/blob/7b85bc7361d2bc6ee1b84ddc3d4619fa3ffac263/M3/dataset/Preprocessed_Dataset.csv'
 dataset = pd.read_csv(location)
 dataset = dataset.sample(frac=1).reset_index(drop=True)
 
