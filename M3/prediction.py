@@ -35,8 +35,6 @@ column_names = [
         ]
 
 # Load the dataset
-if st.button("Show Sample Values"):
-    st.write('M3/Test_Data/yes Heart disease data.txt')
 location = 'M3/dataset/Preprocessed_Dataset.csv'
 dataset = pd.read_csv(location)
 dataset = dataset.sample(frac=1).reset_index(drop=True)
