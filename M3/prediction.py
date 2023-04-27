@@ -78,8 +78,10 @@ if st.button("Predict"):
 
     if prediction == 1:
         st.markdown("## Sorry, Please consider consulting a doctor.")
+        st.image('M3/heartdis.jpg')
     else:
         st.markdown("## Congratulations! Your heart is healthy.")
+        st.image('M3/heartheal.jpg')
 if st.button('show app credits'):
   st.markdown('''##### This is the **Social Awareness App** created in Streamlit using the **PySpark and Scikit-Learn** library.
 ##### **Credit:** App built in `Python` + `Streamlit` by [HARUL GANESH S B ](https://www.linkedin.com/in/harul-ganesh/)\t\t\t[BALAJI S ](https://www.linkedin.com/in/balaji-suresh-kumar/)
