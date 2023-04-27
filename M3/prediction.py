@@ -66,7 +66,7 @@ st.markdown("### Please enter the following details to predict the possibility o
 if st.button("Show Sample Values"):
     with open('M3/Test_Data/yes Heart disease data.txt') as f:
         data = f.read()
-    st.write(data)
+    st.write(data,sep='\n')
 v = []
 
 for i in column_names[:-1]:
