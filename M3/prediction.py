@@ -65,8 +65,9 @@ st.title("Heart Disease Possibility Prediction")
 st.markdown("### Please enter the following details to predict the possibility of a heart attack.")
 if st.button("Show Sample Values"):
     with open('M3/Test_Data/yes Heart disease data.txt') as f:
-        data = f.read()
-    st.write(data,sep='\n')
+        lines = f.readlines()
+    for line in lines:
+        st.write(line.strip())
 v = []
 
 for i in column_names[:-1]:
