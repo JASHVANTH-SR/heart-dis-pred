@@ -60,7 +60,7 @@ pipeline = make_pipeline(kernel, clf)
 pipeline.fit(X_train, Y_Train)
 
 # User-input
-st.title("Heart Attack Possibility Prediction")
+st.title("Heart Disease Possibility Prediction")
 
 st.markdown("### Please enter the following details to predict the possibility of a heart attack.")
 
