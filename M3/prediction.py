@@ -65,7 +65,8 @@ pipeline.fit(X_train, Y_Train)
 st.title("Heart Disease Possibility Prediction")
 
 st.markdown("### Please enter the following details to predict the possibility of a heart attack.")
-
+if st.button("Show Sample Values"):
+    st.show('M3/Test_Data/yes Heart disease data.txt')
 v = []
 
 for i in column_names[:-1]:
