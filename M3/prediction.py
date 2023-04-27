@@ -6,6 +6,8 @@ from sklearn.decomposition import KernelPCA
 from imblearn.pipeline import make_pipeline
 
 st.set_page_config(page_title='Heart Disease Prediction ❤️🫀')
+st.set_page_config(layout="wide")
+
 
 # Get rid of pesky warnings
 def warn(*args, **kwargs):
@@ -79,3 +81,8 @@ if st.button("Predict"):
         st.markdown("## Sorry, Please consider consulting a doctor.")
     else:
         st.markdown("## Congratulations! Your heart is healthy.")
+if st.button('show app credits'):
+  st.markdown('''### This is the **Study App** created in Streamlit using the **pandas-profiling** library.
+****Credit:**** App built in `Python` + `Streamlit` by [HARUL GANESH S B ](https://www.linkedin.com/in/harul-ganesh/)[BALAJI S ](https://www.linkedin.com/in/balaji-s-csbs-dept-03790a202/))
+---
+''')
