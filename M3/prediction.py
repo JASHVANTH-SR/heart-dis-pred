@@ -10,8 +10,8 @@ def warn(*args, **kwargs):
     pass
 
 import warnings
+warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)
 warnings.warn = warn
-np.warnings.filterwarnings('ignore')
 
 # Define column names
 column_names = [
