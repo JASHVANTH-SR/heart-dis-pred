@@ -5,8 +5,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.decomposition import KernelPCA
 from imblearn.pipeline import make_pipeline
 
-st.set_page_config(page_title='Heart Disease Prediction ❤️🫀')
-st.set_page_config(layout="wide")
+st.set_page_config(page_title='Heart Disease Prediction ❤️🫀',layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 
 # Get rid of pesky warnings
