@@ -5,6 +5,8 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.decomposition import KernelPCA
 from imblearn.pipeline import make_pipeline
 
+st.set_page_config(page_title='Heart Disease Prediction ❤️🫀')
+
 # Get rid of pesky warnings
 def warn(*args, **kwargs):
     pass
