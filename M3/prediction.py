@@ -90,6 +90,6 @@ if st.button("Predict"):
         st.image('M3/heartheal.jpg')
 if st.button('show app credits'):
   st.markdown('''##### This is the **Social Awareness App** created in Streamlit using the **PySpark and Scikit-Learn** library.
-##### **Credit:** App built in `Python` + `Streamlit` by [HARUL GANESH S B ](https://www.linkedin.com/in/harul-ganesh/)\t\t\t[BALAJI S ](https://www.linkedin.com/in/balaji-suresh-kumar/)
+##### **Credit:** App built in `Python` + `Streamlit` by [HARUL GANESH S B ](https://www.linkedin.com/in/harul-ganesh/)\t\t\t, [BALAJI S ](https://www.linkedin.com/in/balaji-suresh-kumar/)
 ---
 ''')
