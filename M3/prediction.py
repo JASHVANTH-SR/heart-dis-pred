@@ -18,19 +18,19 @@ warnings.warn = warn
 
 # Define column names
 column_names = [
-            "Age:",  #1
-            "Sex:",  #2
-            "CP:",  #3
-            "Trest-BP:",  #4
-            "Chol:",  #5
-            "FBS:",   #6
-            "Rest-ECG:",  #7
-            "Thalach:",  #8
-            "Exang:", #9
-            "Oldpeak:",  #10
-            "Slope:",  #11
-            "CA:", #12
-            "Thal:", #13
+            "Age - ranges from (19 to 79):",  #1
+            "Sex - [1: Male, 0: Female]:",  #2
+            "CP - (1- Type 1 Angina, 2- Atypical Type Angina, 3-Non-angina pain, 4-Asymptomatic):",  #3
+            "Trest-BP - (94 to 200):",  #4
+            "Chol - (126 to 564):",  #5
+            "FBS - (0, 1):",   #6
+            "Rest-ECG (0, 1, 2):",  #7
+            "Thalach - (71 to 202):",  #8
+            "Exang - (0, 1):", #9
+            "Oldpeak - (1 to 3):",  #10
+            "Slope - (1, 2, 3):",  #11
+            "CA - (0 to 3):", #12
+            "Thal - (3, 6, 7):", #13
             "target"  #14
         ]
 
