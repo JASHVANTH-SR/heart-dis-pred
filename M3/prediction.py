@@ -30,7 +30,7 @@ column_names = [
             "Oldpeak - (1 to 3):",  #10
             "Slope - (1, 2, 3):",  #11
             "CA - (0 to 3):", #12
-            "Thal - (3, 6, 7):", #13
+            "Thal - (0, 1):", #13
             "target"  #14
         ]
 
